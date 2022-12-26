@@ -1,0 +1,76 @@
+.style{
+    text-align: center;
+    font-family: serif;
+    font-size: xx-large;
+   padding: 20px;
+   text-shadow: 2px 2px 5px black;
+}
+  img {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.sticky-top {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+font-size: 20px;
+}
+h2{
+    font-family: serif;
+    text-shadow: 2px 2px 5px black;
+}
+.description{
+    padding:20px 60px ;
+    font-family: serif;
+    font-size: medium;
+    background-color: rgb(223, 241, 241);
+}
+.svit-image{
+padding-top: 20px;
+width: 80%;
+ height:400px;
+}
+footer{
+    background-color: rgb(249, 245, 245);
+    color: rgb(113, 113, 14);
+}
+
+h4{
+text-align: center;
+}
+#map{
+    position: relative;
+    left: 5px;
+}
+iframe{
+    position: relative;
+    left: 90px;
+    height: 90px;
+}
+#rec{
+    height: 90px;
+}
+.contact{
+    background-color: slateblue;
+    font-size: medium;
+    
+  }
+  p{
+    font-size: medium;
+    font-family: serif;
+  }
+  h1{
+    text-align: center;
+    font-family: serif;
+    text-shadow: 2px 2px 5px red;
+
+  }
+  h3{
+    font-family: serif;
+    text-shadow: 2px 2px 5px blue;
+  }
+  h4{
+text-align: center;
+}

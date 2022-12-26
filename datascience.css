@@ -1,0 +1,51 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 8px chartreuse;
+
+}
+p {
+    font-size: medium;
+}
+h2{
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 4px 4px 8px chocolate;
+}
+.img1 {
+position:relative;
+left: 500px;
+
+
+
+}
+.contact{
+background-color: slateblue;
+font-size: medium;
+
+}
+body{
+background-color: blanchedalmond;
+}
+#map{
+    position: relative;
+    left: 5px;
+    }
+    iframe{
+    position: relative;
+    left: 90px;
+    height: 90px;
+    }
+    footer{
+    background-color: rgb(249, 245, 245);
+    color: beige;
+    }
+    h4{
+      text-align: center; 
+      color: blue;
+      }

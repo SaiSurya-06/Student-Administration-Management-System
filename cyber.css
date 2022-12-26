@@ -1,0 +1,59 @@
+ img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            text-align: center;
+            font-family: sans-serif;
+            text-shadow: 2px 2px 5px black;
+
+        }
+        p {
+            font-size: medium;
+        }
+        h2{
+          text-align: center;
+          font-family: sans-serif;
+          text-shadow: 2px 2px 5px crimson;
+        }
+        .img1 {
+    position:relative;
+    left: 500px;
+    
+    
+
+  }
+  .contact{
+    background-color: slateblue;
+    font-size: medium;
+    
+  }
+  body {
+    background-color: bisque;
+  }
+  footer{
+    background-color: rgb(249, 245, 245);
+    color: rgb(113, 113, 14);
+}
+
+h4{
+text-align: center;
+}
+#map{
+    position: relative;
+    left: 5px;
+}
+iframe{
+    position: relative;
+    left: 90px;
+    height: 90px;
+}
+#rec{
+    height: 90px;
+}
+.contact{
+    background-color: slateblue;
+    font-size: medium;
+    
+  }
