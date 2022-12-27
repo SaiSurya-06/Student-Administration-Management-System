@@ -27,10 +27,8 @@
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
-		$stmt = $conn->prepare("insert into registration(firstName, lastName, snumber, aadharnumber, email, FatherName, MotherName, Fathernumber, Mothernumber, Address, gender
-		DOB, EmcetRank, JEERank, _10Board, _10Percentage, _12Board, _12Percentage, Course)) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-		$stmt->bind_param("ssiisssiissiiisisis", $firstName, $lastName, $snumber, $aadharnumber, $email, $FatherName, $MotherName, $Fathernumber, $Mothernumber, $Address, $gender
-		$DOB, $EmcetRank, $JEERank, $_10Board, $_10Percentage, $_12Board, $_12Percentage, $Course);
+		$stmt = $conn->prepare("insert into form(firstName, lastName, snumber, aadharnumber, email, FatherName, MotherName, Fathernumber, Mothernumber, Address, gender, DOB, EmcetRank, JEERank, _10Board, _10Percentage, _12Board, _12Percentage, Course) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+		$stmt->bind_param("ssiisssiisssiisisis", $firstName, $lastName, $snumber, $aadharnumber, $email, $FatherName, $MotherName, $Fathernumber, $Mothernumber, $Address, $gender, $DOB, $EmcetRank, $JEERank, $_10Board, $_10Percentage, $_12Board, $_12Percentage, $Course);
 		$execval = $stmt->execute();
 		echo $execval;
 		echo "Registration successfully...";
